@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nac{
+    width: 1520px;
+    height: 512px;
+    background: #0A2640;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+
+}
+.r-text{
+    display: flex;
+    gap: 40px;
+
+}
+.r-text a{
+    text-decoration: none;
+    color: #ffff;
+}
+.r-text button{
+    width: 128px;
+    height: 40px;
+    border-radius: 24px;
+    background: #ffff;
+    color: black;
+}
+@media screen and (max-width: 800px) {
+    nav{
+        display: flex;
+        padding: 5px;
+        justify-content: space-between;
+    }  
+    .menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 400px) {
+    .nac{
+        width: 500px;
+        height: 700px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    .r-text a{
+        display: none;
+    }
+    .menu{
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 400px;
+        gap: 100px;
+        padding: 10px;
+    }
+}
+
+main h5{
+    color: #ffff;
+}
+main h1{
+    color: #ffff;
+    font-size: 64px;
+    font-weight: 400;
+}
+main p{
+    color: #F1F1F1;
+    font-size: 16px;
+    font-weight: 400;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.kl h1{
+    color: #000000;
+    font-size: 48px;
+    font-weight: 400;
+}
+@media screen and (max-width: 400px) {
+    .middle{
+       display: flex;
+       justify-content: space-around;
+    }
+}
+.k{
+    width: 1529px;
+    height: 484px;
+    background: #0A2640;
+}
+.k h1{
+   color: #ffff; 
+    font-size: 48px;
+}
+.card1 h1{
+    color: #4FE9A4;
+    font-size: 96px;
+    font-weight: 400;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.card1 h1{
+    color: #4FE9A4;
+    font-size: 96px;
+    font-weight: 400;
+}
+.card2 h1{
+    color: #4FE9A4;
+    font-size: 96px;
+    font-weight: 400;
+}
+.card3 h1{
+    color: #4FE9A4;
+    font-size: 96px;
+    font-weight: 400;
+}
+.cardsw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.kol{
+    width: 1520px;
+    height: 712px;
+    background: #0A2640;
+    color: #ffff;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
